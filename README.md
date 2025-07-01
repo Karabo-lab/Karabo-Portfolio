@@ -54,7 +54,7 @@ karabo-portfolio/
 
 This project uses **environment variables** for email credentials.
 
-Create a `.env` file in my root:
+Create a `.env` file in your root:
 EMAIL_USER=your_email@gmail.com
 EMAIL_PASS=your_gmail_app_password
 
