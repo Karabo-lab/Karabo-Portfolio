@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Karabo Madigoe - Portfolio</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <link rel="shortcut icon" href="/static/favicon.ico" type="image/x-icon">
+    <script>
+      src="https://kit.fontawesome.com/a076d05399.js"
+      crossorigin="anonymous"
+    </script>
+  </head>
+  <body>
+    <nav>
+      <div class="logo">MY PORTFOLIO</div>
+      <ul>
+        <li><a href="{{url_for('home')}}">Home</a></li>
+        <li><a href="{{ url_for('about') }}">About</a></li>
+        <li><a href="{{url_for('projects')}}">Projects</a></li>
+        <li><a href="{{url_for('contact')}}">Contact</a></li>
+      </ul>
+    </nav>
+
+    <section class="hero" id="home">
+      <img
+        src="/static/images/+27 73 554 7959 20231029_102725.jpg" alt="Karabo Madigoe" class="profile-img"/>
+      <div class="circles">
+        <div class="circle"></div>
+        <div class="circle"></div>
+      </div>
+      <h1>Karabo Madigoe</h1>
+      <h2>SOFTWARE ENGINEER</h2>
+      <div class="socials">
+        <a
+          href="https://www.linkedin.com/in/karabo-lepeke-960a47362/" title="LinkedIn" target="_blank">
+          <img src="/static/icons/linkedin.svg" alt="LinkedIn" class="icon" />
+        </a>
+        <a href="https://github.com/Karabo-lab" title="GitHub" target="_blank">
+          <img src="/static/icons/icons8-github-50.png" alt="GitHub" class="icon" />
+        </a>
+      </div>
+    </section>
+  </body>
+</html>

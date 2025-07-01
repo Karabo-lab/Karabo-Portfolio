@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Projects - Karabo Madigoe</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="/static/style.css" />
+  <link rel="icon" href="{{ url_for('static', filename='favicon.ico') }}" type="image/x-icon" />
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">MY PORTFOLIO</div>
+      <ul>
+        <li><a href="{{url_for('home')}}">Home</a></li>
+        <li><a href="{{url_for('about')}}">About</a></li>
+        <li><a href="{{url_for('projects')}}" class="active">Projects</a></li>
+        <li><a href="{{url_for('contact')}}">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="projects-section">
+    <h1>🚀 My Projects</h1>
+    <div class="projects-grid">
+      <div class="project-card">
+      <img src="/static/images/greenhouse.jpg" alt="Greenhouse Project" class="project-thumb" />
+        <h2>🌿 Greenhouse Light Control</h2>
+        <p>Distributed light control system for greenhouses using Python, HTML, Arduino, and MySQL.</p>
+        <div class="tags">
+          <span>#Python/Flask</span>
+          <span>#HTML</span>
+          <span>#Arduino</span>
+          <span>#MySQL</span>
+        </div>
+        <a href="https://github.com/Karabo-lab/greenhouse-light-control-system" target="_blank">🔗 View on GitHub</a>
+      </div>
+
+      <div class="project-card">
+        <img src="/static/images/python.png" alt="CLI Tools" class="project-thumb" />
+        <h2>📦 CLI Tools in Python</h2>
+        <p>Terminal-based apps including a to-do list and file manager for everyday dev tasks.</p>
+        <div class="tags">
+          <span>#Python</span>
+          <span>#CLI</span>
+        </div>
+        <a href="https://github.com/Karabo-lab/python-projects" target="_blank">🔗 View on GitHub</a>
+      </div>
+
+      <div class="project-card">
+        <img src="/static/images/java login system.png" alt="Java Login" class="project-thumb" />
+        <h2>🔐 Java Login System</h2>
+        <p>A Java-based login system using console prompts and secure user credential checks.</p>
+        <div class="tags">
+          <span>#Java</span>
+          <span>#Console App</span>
+        </div>
+        <a href="https://github.com/Karabo-lab/SimpleLogin.java" target="_blank">🔗 View on GitHub</a>
+      </div>
+
+      <div class="project-card">
+        <img src="/static/images/banking system.png" alt="Banking System" class="project-thumb" />
+        <h2>🏦 Online Banking System</h2>
+        <p>A simulated banking app with deposit, withdraw, and balance management functions.</p>
+        <div class="tags">
+          <span>#C++</span>
+          <span>#OOP</span>
+          <span>#Console App</span>
+        </div>
+        <a href="https://github.com/Karabo-lab/Online-Banking-System" target="_blank">🔗 View on GitHub</a>
+      </div>
+    </div>
+    <p>View more projects on my <a href="https://github.com/Karabo-lab?tab=repositories" target="_blank">GitHub</a></p>
+  </section>
+
+  <footer>
+    <p>© 2025 Karabo Madigoe</p>
+  </footer>
+</body>
+</html>

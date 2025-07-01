@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Me - Karabo Madigoe</title>
+    <link rel="stylesheet" href="/static/style.css"/>
+    <link rel="icon" href="{{ url_for('static', filename='favicon.ico') }}" type="image/x-icon" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">MY PORTFOLIO</div>
+        <ul>
+          <li><a href="{{url_for('home')}}">Home</a></li>
+          <li><a href="{{url_for('about')}}" class="active">About</a></li>
+          <li><a href="{{url_for('projects')}}">Projects</a></li>
+          <li><a href="{{url_for('contact')}}">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="about-layout">
+      <div class="about-content">
+        <div class="about-left">
+          <img
+            src="/static/images/+27 73 554 7959 20231029_102725.jpg"
+            alt="Karabo Madigoe"
+          />
+        </div>
+
+        <div class="about-right">
+          <h1>👋 Hi, I'm Karabo Madigoe</h1>
+          <p>
+            🎓 I'm currently pursuing a Diploma in Electrical Engineering
+            (Computer Systems) at Vaal University of Technology. I'm an
+            intermediate programmer with experience in building practical
+            software and automation tools using
+            <strong>Python, C, Javascript</strong>, and working with hardware
+            using <strong>Arduino</strong>.
+          </p>
+          <p>
+            I enjoy solving real-world problems through code — from smart
+            greenhouse systems to simple CLI tools — and I'm constantly learning
+            more about
+            <strong
+              >software engineering, web development, and system
+              integration</strong
+            >.
+          </p>
+          <p>
+            I'm open to internship and entry-level opportunities in software
+            development, full-stack, ICT, or embedded systems.
+          </p>
+        </div>
+      </div>
+
+      <div class="skills-block">
+        <h2>🧰 Skills & Technologies</h2>
+        <div class="skills-section">
+          <div class="skill-item">
+            <img src="/static/icons/icons8-python-50.png" alt="Python" />
+            <span>Python</span>
+          </div>
+          <div class="skill-item">
+            <img src="/static/icons/icons8-c-programming-50.png" alt="C" />
+            <span>C</span>
+          </div>
+          <div class="skill-item">
+            <img src="/static/icons/icons8-c++-50.png" alt="C++" />
+            <span>C++</span>
+          </div>
+          <div class="skill-item">
+            <img src="/static/icons/icons8-html5-50.png" alt="HTML" />
+            <span>HTML</span>
+          </div>
+          <div class="skill-item">
+            <img src="/static/icons/icons8-css3-50.png" alt="CSS" />
+            <span>CSS</span>
+          </div>
+          <div class="skill-item">
+            <img src="/static/icons/icons8-javascript-50.png" alt="Javascript" />
+            <span>Javascript</span>
+          </div>
+          <div class="skill-item">
+            <img src="/static/icons/icons8-mysql-50.png" alt="MySQL" />
+            <span>MySQL</span>
+          </div>
+          <div class="skill-item">
+            <img src="/static/icons/icons8-arduino-50.png" alt="Arduino" />
+            <span>Arduino</span>
+          </div>
+          <div class="skill-item">
+            <img src="/static/icons/icons8-github-50.png" alt="GitHub" />
+            <span>GitHub</span>
+          </div>
+        </div>
+        <div class="action-buttons">
+          <a href="contact.html" class="btn hire-btn">📩 Hire</a>
+          <a href="Karabo_Madigoe_CV.pdf" class="btn cv-btn" target="_blank"
+            >📄 Get CV</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>© 2025 Karabo Madigoe</p>
+    </footer>
+  </body>
+</html>
